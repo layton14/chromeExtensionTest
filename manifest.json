@@ -1,10 +1,17 @@
 {
     "manifest_version": 3,
-    "name": "YouTube Playlist Length",
-    "description": "This extension will show how long, in hours/minutes/seconds, the current playlist is",
+    "name": "BasicCalculator",
+    "description": "Basic Calculator",
     "version": "0.0.1",
     "action": {
         "default_popup": "index.html",
         "default_icon": "mainIcon.png"
+    },
+    "sandbox": {
+        "pages": [
+            "index.html",
+            "styles.css",
+            "index.js"
+        ]
     }
 }
