@@ -1,3 +1,43 @@
-h1 {
-    color: red;
+button {
+    width: 45px;
+    height: 45px;
+    font-family: ui-monospace;
+    font-size: large;
+}
+
+#calc {
+    border-style: solid;
+    padding: 1px;
+    width: 195px;
+}
+
+#formulaDisplay {
+    width: 185px;
+    font-size: small;
+    border-style: solid;
+    text-align: left;
+    background-color: whitesmoke;
+    font-family: ui-monospace;
+}
+
+#calcDisplay {
+    width: 185px;
+    height: 35px;
+    font-size: x-large;
+    border-style: solid;
+    text-align: right;
+    background-color: whitesmoke;
+    font-family: ui-monospace;
+}
+
+#zero {
+    width: 94px;;
+}
+
+.number {
+    background-color: lightgray;
+}
+
+.operation {
+    background-color: gray;
 }
