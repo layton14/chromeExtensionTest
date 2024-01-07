@@ -1,17 +1,43 @@
-{
-    "manifest_version": 3,
-    "name": "BasicCalculator",
-    "description": "Basic Calculator",
-    "version": "0.0.1",
-    "action": {
-        "default_popup": "index.html",
-        "default_icon": "mainIcon.png"
-    },
-    "sandbox": {
-        "pages": [
-            "index.html",
-            "styles.css",
-            "index.js"
-        ]
-    }
+button {
+    width: 45px;
+    height: 45px;
+    font-family: ui-monospace;
+    font-size: large;
+}
+
+#calc {
+    border-style: solid;
+    padding: 1px;
+    width: 195px;
+}
+
+#formulaDisplay {
+    width: 185px;
+    font-size: small;
+    border-style: solid;
+    text-align: left;
+    background-color: whitesmoke;
+    font-family: ui-monospace;
+}
+
+#calcDisplay {
+    width: 185px;
+    height: 35px;
+    font-size: x-large;
+    border-style: solid;
+    text-align: right;
+    background-color: whitesmoke;
+    font-family: ui-monospace;
+}
+
+#zero {
+    width: 94px;;
+}
+
+.number {
+    background-color: lightgray;
+}
+
+.operation {
+    background-color: gray;
 }
